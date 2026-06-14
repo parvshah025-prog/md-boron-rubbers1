@@ -1,0 +1,746 @@
+
+normal
+Bri final figma prompt · MD
+BORON RUBBERS INDIA — FINAL FIGMA DESIGN PROMPT
+Build-Over Specification · Complete · One-Shot · Zero Revision Required
+Based on: Approved Mockup + Brand Assets + Full Product Scope + Technical Resources Sidebar
+CONTEXT FOR THE DESIGNER
+This is a BUILD-OVER of an existing approved Figma mockup (link: https://www.figma.com/make/H7cP9WUuIjBZEqo5T7vV2Q/BRI-Rubber-Sheets).
+
+The client — Boron Rubbers India — reviewed and APPROVED the existing mockup's structure, simplicity, interaction flow, and minimal text approach. What they want now is:
+
+Keep: The clean, card-based layout, the interactive Find My Rubber tool, the 8-industry grid, the featured products section, the RFQ form, the minimal text philosophy
+Improve: Visual quality, photography/imagery, iconography, spacing refinement, section depth
+Add: Missing content pages, technical resources floating sidebar, better product detail pages, all 8 industry pages fully fleshed out, NABL/BARC credentials section
+Brand-align: Exact logo, exact colors — no deviations
+The result must feel like the same website — familiar to anyone who saw the mockup — but polished to production quality.
+
+PART 1 — BRAND IDENTITY (EXACT, DO NOT DEVIATE)
+Logo
+Mark: Multi-orbital/electron-path atomic symbol — 5 interlocking curved paths in white, centered dot nucleus, on square blue background
+Color of square background: 
+#1A7FC1 (sky-ocean blue — match the exact blue from the uploaded logo image)
+Mark color: White (
+#FFFFFF)
+Wordmark: "Boron Rubbers India" in bold sans-serif (Poppins 700), dark navy or white depending on bg
+Subline under wordmark: "Advanced Rubber Solutions for 8 Industries" Poppins 400, smaller
+Logo usage on dark bg: White atomic mark + white wordmark
+Logo usage on light bg: Blue atomic mark + dark wordmark
+Color Palette (Exact)
+Token	Hex	Usage
+--bri-primary	
+#1A7FC1	Primary brand blue — nav, CTAs, logo bg, section headers
+--bri-primary-dark	
+#0F5F96	Hover on primary, hero gradient dark end
+--bri-primary-light	
+#2A95D8	Light hover states, active nav
+--bri-sky	
+#E8F4FD	Light section backgrounds, card hover fills
+--bri-teal	
+#00B4A6	Secondary accent — icons, secondary CTAs, highlights
+--bri-teal-light	
+#E0F7F5	Teal bg chips, icon containers
+--bri-navy	
+#0D2B4E	Footer background, dark text headings
+--bri-dark	
+#1C2B3A	Hero gradient, dark panels
+--bri-text	
+#1A2332	Primary body text
+--bri-text-mid	
+#4A5568	Secondary text, descriptions
+--bri-text-light	
+#718096	Captions, metadata, placeholder
+--bri-white	
+#FFFFFF	Card backgrounds, page background
+--bri-gray-bg	
+#F7F9FC	Alternate section backgrounds
+--bri-gray-border	
+#E2E8F0	Card borders, dividers, input strokes
+--bri-gray-light	
+#F0F4F8	Table zebra rows, chip backgrounds
+--bri-success	
+#38A169	In-stock chips, confirmation states
+--bri-warning	
+#D69E2E	Attention, beta feature labels
+Typography (Exact)
+Role	Font	Weight	Desktop Size
+Hero H1	Poppins	700 Bold	52–64px
+Section H2	Poppins	700 Bold	36–40px
+Card H3	Poppins	600 SemiBold	20–22px
+H4 / Sub	Poppins	600 SemiBold	16–18px
+Overline	Poppins	500 Medium	12px uppercase 2px spacing
+Body	Poppins	400 Regular	15–16px
+Caption	Poppins	400 Regular	12–13px
+Button	Poppins	600 SemiBold	14px
+Table	Poppins	400 Regular	13px
+Nav	Poppins	500 Medium	14px
+Stat number	Poppins	700 Bold	48–56px
+PART 2 — DESIGN PRINCIPLES (CARRY OVER FROM APPROVED MOCKUP)
+These are the exact properties the client approved — preserve all of them:
+
+Clean white/light card surfaces — cards on --bri-white or --bri-gray-bg, not dark panels
+Minimal text per card — no paragraphs inside cards; icon + heading + 1-line max
+Interactive industry selector — 8 industry cards in 4×2 grid, click-to-select behavior
+3-step Find My Rubber flow — numbered steps, card-contained, progressive reveal
+Featured products as 2×2 card grid — each card shows temp range, thickness, resistance, industries + CTA pair
+Blue hero gradient — dark navy at top fading to primary blue — NOT flat color
+Trust bar at bottom of hero — ✓ ISO Certified ✓ 30+ Years ✓ Global Standards
+"Why Engineers Trust Us" 4-column icon section
+Stats strip — dark blue bg, large white stat numbers
+"Can't Find What You Need?" CTA section — light blue bg, centered, with Request Quote + Call buttons
+Footer — 4-column: Logo+desc / Quick Links / Industries / Contact Us
+What to IMPROVE from the mockup:
+
+Hero image: Add an actual product visual (rubber sheets/rolls flat-lay) as a right-side hero image, instead of plain gradient bg
+Industry cards: Add proper industry-specific icons (not generic line icons — use specific ones)
+Featured products: Add actual spec data, better visual hierarchy
+Section spacing: More generous whitespace on desktop (current mockup feels slightly tight)
+Card shadows: Refine to more subtle, layered shadows
+CTA buttons: Improve hover states, pill shape instead of rectangle
+Overall: Production-grade refinement of what is already a good approved layout
+PART 3 — NAVIGATION (IMPROVED)
+Sticky header, 72px height, white bg, bottom border --bri-gray-border
+
+Left: BRI Logo (atomic mark + wordmark + subline) Center: Nav links — Home | Products | Industries | Technical Resources | Contact Right: [Request Quote] button — --bri-primary fill, white Poppins 600 14px, pill shape, 40px height
+
+Products dropdown (on hover):
+
+6 product categories as 2-column grid: Rubber Sheets | Radiation Shielding | Electrical Insulation Mats | Rubberized Fabrics | Tank Lining | Sports Flooring
+Each: icon + name + product count
+Industries dropdown (on hover):
+
+8 industries listed in 2-col: Automotive OEMs | Metro & Railways | Aerospace/Defence | Mining & Cement | Oil & Gas | Engineering & EPCs | Pharma & Food | Radiation Shielding
+Technical Resources dropdown:
+
+Links to all 9 technical resource pages (full list in Part 9)
+Mobile: Hamburger icon → full drawer, same links stacked
+
+PART 4 — HOMEPAGE (FULL SPEC)
+Frame: Homepage — 1440px canvas
+
+H1 — HERO SECTION
+Height: 560px | BG: gradient from --bri-dark (
+#1C2B3A) top-left to --bri-primary (
+#1A7FC1) bottom-right at 145°
+
+Layout: 55% left content, 45% right visual
+
+Left content (padding-left 96px, vertically centered):
+
+H1 (Poppins 700, 58px, white, line-height 1.1, max-width 520px): "The Right Rubber for Your Application. Fast."
+Body (Poppins 400, 17px, rgba(255,255,255,0.80), max-width 460px, margin-top 20px): "Your technical partner for precision-engineered rubber solutions across 8 industries"
+Button row (margin-top 32px, gap 12px):
+[Find My Rubber] — --bri-teal bg, white Poppins 600 14px, 44px height, 24px radius
+[Request Quote] — white bg, --bri-primary text, Poppins 600 14px, same size, border --bri-primary
+Trust row (margin-top 28px, flex, gap 24px):
+Each: checkmark icon (teal) + Poppins 500 13px white: "ISO Certified" · "30+ Years Experience" · "Global Standards"
+Right visual (45%):
+
+Image: rubber sheets product flat-lay, fan of 6–8 different grades, professional studio shot, slight angle from above
+"📷 Stock ref: 'industrial rubber sheets rolls stacked manufacturing' — or use any professional rubber product photography"
+Image treatment: crisp, unfiltered — clean product shot
+Floating badge card (bottom-left of image, white bg, 12px radius, shadow, 180×70px):
+"30+ Years of Excellence" Poppins 600 14px --bri-primary
+"ISO 9001 · NABL Accredited" Poppins 400 12px --bri-text-mid
+H2 — SCROLLING MARQUEE TRUST BAR
+Height: 48px | BG: --bri-primary Content (Poppins 500 13px white, separated by "·"): · ISO 9001:2015 Certified · NABL Accredited In-House Lab · BARC Collaboration · 30+ Years Manufacturing · Plants in Sanand & Bhavnagar · 8 Industry Divisions · 40+ Rubber Grades · FDA · WRAS · IS 15652 · ASTM D2000 · Infinite marquee (show 2 repetitions in Figma as static snapshot)
+
+H3 — FIND MY RUBBER TOOL
+BG: --bri-gray-bg | Padding: 80px top/bottom
+
+Centered heading:
+
+H2 (Poppins 700 36px --bri-text): "Find My Rubber"
+Sub (Poppins 400 16px --bri-text-mid): "Answer 3 quick questions to get the perfect solution for your needs"
+Tool card (max-width 860px, centered, white bg, border --bri-gray-border, 16px radius, shadow, padding 40px):
+
+Step 1 — Select Your Industry (active state shown):
+
+Step badge: "1" circle --bri-primary bg white text Poppins 700 14px + "Select Your Industry" Poppins 600 16px --bri-text
+8 industry option cards in 4×2 grid (gap 12px, margin-top 20px): Each option: white bg, --bri-gray-border border, 8px radius, padding 16px, flex-col centered, 140×80px
+Icon top: 32×32px --bri-teal-light bg circle, industry icon --bri-teal centered
+Name: Poppins 500 13px --bri-text centered
+Selected: --bri-primary border 2px, --bri-sky bg
+Industries with icons:
+Automotive OEMs (car icon)
+Metro & Railways (train icon)
+Aerospace/Defence (aircraft icon)
+Mining & Cement (pickaxe/mountain icon)
+Oil & Gas (oil drop/flame icon)
+Engineering & EPCs (gear/tools icon)
+Pharma & Food (flask/leaf icon)
+Radiation Shielding (atom/shield icon)
+Show "Pharma & Food" selected in mockup state
+Step 2 — Select Application (show below Step 1 after selection):
+
+Step badge: "2" + "Select Your Application"
+Dynamic chip grid (show pharma example): Chips: Autoclave Seals · Pump Diaphragms · CIP Gaskets · Tank Lining · Conveyor Profiles Each chip: --bri-gray-light bg, --bri-gray-border border, 4px radius, Poppins 500 13px --bri-text, 36px height, 12px padding Selected chip: --bri-primary bg, white text
+Step 3 — Key Requirement:
+
+Step badge: "3" + "Select Your Key Requirement"
+Chips: High Temperature · Oil & Fuel Resistant · FDA Grade · Fire Retardant · Anti-Static · Low Temperature · Ozone & UV Resistant · Potable Water Safe · Chemical Resistance · Electrical Insulation
+Result area (below steps, shown in completed/filled state): --bri-sky bg, 12px radius, padding 24px, margin-top 20px
+
+"2 Grades Matched" Poppins 600 14px --bri-primary uppercase letter-spacing 1px
+2 result rows (white bg, --bri-gray-border border, 8px radius, padding 16px 20px, flex row):
+Grade name: Poppins 600 16px --bri-text | 3 spec chips | [View Details →] --bri-primary link right Row 1: EPDM Pharma Grade | −45°C–150°C · FDA 21 CFR · WRAS Row 2: VMQ Medical Silicone | −60°C–230°C · USP Class VI · FDA
+H4 — BROWSE BY INDUSTRY (8-CARD GRID)
+BG: --bri-white | Padding: 80px
+
+Centered heading: H2: "Browse by Industry" Sub: "Industry-specific solutions engineered for your unique challenges"
+
+8 industry cards (4×2 grid, 1280px max-width, gap 16px): Each: white bg | --bri-gray-border border | 12px radius | shadow light | padding 24px | hover: shadow lift + --bri-primary top border 3px
+
+Card anatomy:
+
+Icon circle: 48×48px --bri-teal-light bg, industry icon --bri-teal 24px centered
+Industry name: Poppins 600 16px --bri-text, margin-top 16px
+Product count: Poppins 400 13px --bri-text-light — "3 specialized products"
+[Explore Solutions →] --bri-primary Poppins 500 13px link, margin-top 12px, arrow moves on hover
+Industry content:
+
+Automotive OEMs — car icon — "3 specialized products" — Products: VITON®/FKM, Butyl, Nitrile NBR (Oil & Fuel Grade)
+Metro & Railways — train icon — "4 specialized products" — Products: Anti-Static Neoprene, Fire-Retardant Sheet, Electrical Insulation Mats, EPDM Platform Seal
+Aerospace/Defence — aircraft icon — "3 specialized products" — Products: FKM Viton, CSM Hypalon, Self-Extinguishing Boron Sheet
+Mining & Cement — gear/mountain icon — "3 specialized products" — Products: Skirt-Board NR/SBR, Chute-Lining (Extra Abrasion), Shot-Blasting Sheet
+Oil & Gas — oil drop icon — "4 specialized products" — Products: Nitrile NBR 100% Buna-N, Viton FKM Coated Fabric, Fabric-Insert NBR/Nylon Diaphragm, Silicone Sheet
+Engineering & EPCs — tools icon — "4 specialized products" — Products: Commercial NR/SBR, EPDM Waterproof Membrane, Chloroprene Neoprene, Silicone FDA High-Temp
+Pharma & Food — flask icon — "3 specialized products" — Products: FDA Silicone Sheet, Potable-Water EPDM, White Food-Grade NR/EPDM
+Radiation Shielding — atom icon — "4 specialized products" — Products: Self-Extinguishing Boron Sheet, Lead Rubber Sheet, Boron Polyethylene, Pure Polyethylene Shielding Grade
+H5 — FEATURED SOLUTIONS (2×2 PRODUCT CARDS)
+BG: --bri-gray-bg | Padding: 80px
+
+Centered heading: H2: "Featured Solutions" Sub: "Most requested products with technical specifications at a glance"
+
+4 product cards (2×2 grid, max-width 1040px, centered, gap 20px): Each card: white bg | --bri-gray-border border | 12px radius | shadow | padding 28px
+
+Card anatomy:
+
+Product name: Poppins 600 18px --bri-text
+4 spec rows (2×2 mini grid, margin-top 16px): Each spec: label (Poppins 400 12px --bri-text-light) + value (Poppins 600 13px --bri-text)
+Temperature Range: [value]
+Thickness: [value]
+Resistance: [value]
+Industries: [value]
+Button row (margin-top 20px, border-top --bri-gray-border padding-top 16px): [View Details] --bri-primary outline button, 36px height, 8px radius [Get Quote] --bri-primary fill button, same size, margin-left 8px
+4 Featured Products:
+
+Card 1: VITON® / FKM Rubber Sheet
+
+Temp: −20°C to +230°C | Thickness: 0.5mm–10mm | Resistance: Fuel, Oil, Chemicals | Industries: Automotive, Aerospace
+Industries chip: teal
+Card 2: Nitrile (NBR) Rubber Sheet
+
+Temp: −30°C to +120°C | Thickness: 1mm–50mm | Resistance: Oil, Petroleum, Water | Industries: Oil & Gas, Automotive
+Card 3: EPDM Rubber Sheet / Waterproof Membrane
+
+Temp: −40°C to +150°C | Thickness: 0.8mm–25mm | Resistance: Weather, Ozone, UV | Industries: Engineering, Pharma
+Card 4: Self-Extinguishing Boron Sheet
+
+Temp: −20°C to +80°C | Thickness: 2mm–50mm | Resistance: Neutron Radiation | Industries: Aerospace, Nuclear
+H6 — WHY ENGINEERS TRUST US (4-COLUMN ICON SECTION)
+BG: --bri-white | Padding: 80px
+
+H2: "Why Engineers Trust Us"
+
+4 columns:
+Each: centered, icon circle top, heading, 2-line body
+
+Research & Innovation — 🔬 icon in teal — "Advanced R&D for cutting-edge rubber solutions"
+Quality & Integrity — ✓ shield icon in teal — "ISO-certified manufacturing excellence"
+Customer First — 👤 icon in teal — "Dedicated to exceeding expectations"
+Technical Support — 🎧 icon in teal — "Expert guidance at every step"
+H7 — STATS STRIP
+BG: --bri-navy | Height: 160px
+
+3 stats centered in flex row, separated by thin white vertical dividers (20% opacity):
+
+Each: Poppins 700 48px white (number) + Poppins 400 14px rgba(255,255,255,0.70) (label below)
+
+30+ / Years of Excellence
+8 / Industry Divisions
+24hr / Quote Response Time
+H8 — "CAN'T FIND WHAT YOU NEED?" CTA
+BG: --bri-sky | Padding: 64px | Centered layout
+
+H2 (Poppins 700 32px --bri-primary): "Can't Find What You Need?" Body (Poppins 400 16px --bri-text-mid): "Talk to our technical team. We'll help you find the right solution."
+
+Button row (centered, margin-top 24px, gap 16px):
+
+[Request Quote] --bri-primary fill, 44px height, 24px radius, icon left
+[Call: +91 278 2445049] white bg, --bri-primary border + text, same size, phone icon left
+H9 — FOOTER
+BG: --bri-navy | Padding: 64px top / 32px bottom
+
+4-column grid (1280px max-width):
+
+Col 1 — Brand (260px):
+
+BRI logo (white atomic mark + white wordmark)
+"30+ years of excellence in advanced material manufacturing" Poppins 400 13px rgba(255,255,255,0.60), margin-top 16px
+Social icons row (margin-top 20px): LinkedIn + Facebook — 32px circle, rgba(255,255,255,0.1) bg, white icon
+Col 2 — Quick Links:
+"QUICK LINKS" Poppins 600 12px rgba(255,255,255,0.50) uppercase letter-spacing 2px
+Links: Home · Products · Industries · Technical Resources · Contact — Poppins 400 14px rgba(255,255,255,0.70) hover white
+
+Col 3 — Industries:
+"INDUSTRIES" header same style
+Links: Automotive OEMs · Metro & Railways · Aerospace/Defence · Oil & Gas · Pharma & Food · Radiation Shielding · Mining & Cement · Engineering & EPCs
+
+Col 4 — Contact Us:
+"CONTACT US" header
+
+✉ sales@boronrubbersindia.com
+📞 +91 278 2445049
+📍 E-36, Road 31/A, BOL GIDC Estate, Sanand–II, Ahmedabad–382170
+Bottom bar (32px, border-top rgba(255,255,255,0.1)):
+"© 2026 Boron Rubbers India. All rights reserved." Poppins 400 12px rgba(255,255,255,0.50) — centered
+
+PART 5 — CONTACT / RFQ PAGE
+Frame: Contact — Request Quote — same nav/footer as homepage
+
+Hero
+BG: gradient same as homepage hero | Height: 200px H1 (white, Poppins 700 44px, centered): "Get Your Quote in 24 Hours" Sub (white 80%, Poppins 400 16px, centered): "Fast, accurate quotes from our technical team. Zero hassle."
+
+Main layout (2-column, 1040px max-width, centered, padding 80px, gap 40px)
+LEFT column (360px):
+
+3 contact cards stacked (gap 16px):
+
+Card 1 — Email: White bg | --bri-gray-border border | 12px radius | padding 24px
+
+✉ icon in teal circle
+"Email Us" Poppins 600 16px
+"sales@boronrubbersindia.com" --bri-primary Poppins 500 14px
+"Response time: < 24 hours" --bri-text-light 13px
+Card 2 — Phone:
+Same style
+
+📞 icon
+"Call Us" heading
+"+91 278 2445049" --bri-primary Poppins 600 16px
+"Mon-Sat: 9:00 AM – 6:00 PM IST"
+Card 3 — WhatsApp:
+Same style
+
+WhatsApp icon (green tint)
+"WhatsApp" heading
+[Chat Now] button — --bri-primary fill, full-width, 40px height
+"Fastest response" caption
+Card 4 — Visit:
+
+📍 icon
+"Visit Us" heading
+Full address: "Boron Rubbers India, E-36, Road 31/A, BOL GIDC Estate, Sanand–II, Ahmedabad–382170, Gujarat, India"
+RIGHT column (flex-grow): RFQ Form card: white bg | --bri-gray-border border | 16px radius | shadow | padding 36px
+
+Form title: Poppins 600 20px --bri-text "Request For Quote (RFQ)" Sub: "Just 5 fields. Get a detailed quote within 24 hours." Poppins 400 14px --bri-text-mid Clock icon right of title (teal)
+
+Fields (standard label-above input style):
+
+Your Name *
+Company Name *
+Email or Phone *
+Product Requirement * (textarea, placeholder: "Example: NBR Sheet for oil resistance, thickness 3mm, automotive gasket application" + hint: "Include: Product type, thickness, application, industry")
+Quantity / Volume
+[Submit Quote Request] — --bri-primary fill, full-width, 48px height, rocket icon left Below: "By submitting, you agree to receive a quote response from our team." Poppins 400 12px --bri-text-light centered
+
+3 trust chips below form (flex row, gap 16px, centered): Each: --bri-gray-bg bg, --bri-gray-border border, 12px radius, padding 16px 24px, centered
+
+"24hr" Poppins 700 28px --bri-primary + "Response Time" 13px --bri-text-mid
+"ISO" Poppins 700 28px --bri-primary + "Certified Quality" 13px
+"30+" Poppins 700 28px --bri-primary + "Years Experience" 13px
+"Trusted by Leading Industries" strip
+BG: --bri-gray-bg | Padding: 64px H2: "Trusted by Leading Industries" Sub: "Serving automotive, aerospace, pharma, oil & gas, and more"
+
+4 stat cards (flex row centered, gap 16px):
+Each: white bg, border, 12px radius, padding 24px, centered
+
+"30+" / "Years in Business" / "Since 1994"
+"8" / "Industry Verticals" / "Specialized Solutions"
+"500+" / "Active Clients" / "Pan India & Export"
+"100%" / "Quality Assured" / "ISO Certified"
+PART 6 — INDUSTRY PAGE TEMPLATE
+Frame: Industry — [Name] — 8 pages, same template, content swapped Example: Industry — Pharma & Food
+
+Hero
+BG: gradient hero | Height: 280px Breadcrumb: Home › Industries › Pharma & Food | --bri-text-light 12px | white on dark bg H1 (Poppins 700 48px white): "Pharma & Food Rubber Solutions" Sub (Poppins 400 16px white 80%): "FDA-grade and food-safe rubber for cleanrooms, CIP systems, and sterile processing" CTA: [View Products] teal fill + [Request Quote] white outline
+
+Products for This Industry
+BG: white | Padding: 64px
+
+H2: "Products for Pharma & Food"
+Grid of product cards (3-col, same card style as Featured Solutions — full spec data)
+
+Pharma & Food products:
+
+FDA-Compliant Silicone Rubber Sheet
+Temp: −60°C to +230°C | Shore A: 30–80 | Compliance: FDA 21 CFR 177.2600, USP Class VI
+Applications: Autoclave seals, pump diaphragms, sterile processing equipment
+Available: Sheets · Rolls · Custom Profile
+Potable-Water EPDM Rubber Sheet / Membrane
+Temp: −45°C to +150°C | Shore A: 40–70 | Compliance: WRAS BS 6920, FDA
+Applications: Water treatment gaskets, CIP system seals, tank liners
+Available: Sheets · Rolls
+White Food-Grade NR/EPDM Sheet
+Temp: −30°C to +100°C | Shore A: 40–70 | Compliance: FDA, EC 1935/2004
+Applications: Food conveyor profiles, dairy equipment seals, fruit processing gaskets
+Available: Sheets · Custom Cut
+Applications
+Numbered list rows (same style as approved mockup — icon + name + description):
+01 · Autoclave Door Seals · "High-temp silicone for 134°C steam sterilization cycles"
+02 · Pump Diaphragms · "FDA-grade EPDM/NBR for sterile liquid dosing"
+03 · CIP/SIP Gaskets · "WRAS-compliant gaskets for tri-clamp fittings"
+04 · Tank & Vessel Lining · "Chemical-resistant lining for fermentation and WFI tanks"
+05 · Conveyor Strip Profiles · "Food-grade profiles for processing line conveyors"
+06 · Vibration Isolation · "Anti-vibration mounts for cleanroom equipment"
+
+Industry RFQ
+BG: --bri-sky | Centered form card — same style as main RFQ but pre-populated with industry name in Product Requirement field
+
+All 8 industry pages follow this template. Product lists per industry:
+
+Automotive OEMs:
+
+VITON® / FKM Rubber Sheet — −20°C to +230°C | Fuel, Oil, Chemical resistant | Fuel bladders, tank liners, intake manifold gaskets
+Butyl Rubber Sheet — −40°C to +120°C | Gas-impermeable, ozone resistant | Fuel bladders, acoustic pads, vibration dampening
+Nitrile (NBR) Rubber Sheet – Oil & Fuel Service Grade — −30°C to +120°C | Oil, fuel resistant | Engine gaskets, oil pan seals, fuel system components
+Metro & Railways:
+
+Anti-Static Rubber Sheet (Neoprene) — −30°C to +90°C | Anti-static, flame resistant | Cable trays, switchboards, battery boxes
+Fire-Retardant Rubber Sheet (Neoprene/Boron-Flex) — −20°C to +100°C | Fire retardant (BS 6853) | Platform seals, coach interiors, driver cabs
+Electrical Insulation Mats — IS 15652 Class 0–4 | 1kV–36kV | Switchgear rooms, substations
+EPDM Platform Seal — −45°C to +150°C | Weather resistant | Platform gap seals, door profiles
+Aerospace/Defence:
+
+FKM (Viton®) Rubber Sheet — −20°C to +230°C | Fuel, hydraulic fluid resistant | Fuel pump seals, hydraulic system gaskets
+CSM (Hypalon®) Rubber Sheet — −40°C to +120°C | Chemical, ozone resistant | Radome seals, cable sheathing, outdoor covers
+Self-Extinguishing Flexible Boron Sheet — −20°C to +80°C | Neutron shielding, self-extinguishing | Control rods, shielding panels, BARC applications
+Mining & Cement:
+
+Skirt-Board Rubber Sheet (NR/SBR) — −20°C to +70°C | Abrasion resistant (DIN 53516) | Conveyor belt skirt seals, hopper liners
+Chute-Lining Rubber Sheet (Extra Abrasion Grade) — −10°C to +80°C | High abrasion resistance | Material chute liners, transfer point protection
+Shot-Blasting Rubber Sheet — −10°C to +60°C | Impact and abrasion resistant | Shot blast cabinet liners, blast protection screens
+Oil & Gas:
+
+Nitrile (NBR) Rubber Sheet – 100% Buna-N — −30°C to +120°C | Oil, petroleum, gas resistant | Pump seals, valve packing, pipeline gaskets
+Viton® / FKM Rubberised Coated Fabric — −20°C to +200°C | Chemical resistant, flexible | Flexible joint covers, chemical-resistant curtains
+Fabric-Insert Diaphragm Rubber Sheet (NBR/Nylon) — −20°C to +100°C | Pressure resistant | Control valve diaphragms, pump diaphragms
+Silicone Rubber Sheet — −60°C to +230°C | High temp, chemical resistant | High-temp gaskets, oven seals
+Engineering & EPCs:
+
+Commercial (General-Purpose) Rubber Sheet (NR/SBR Blend) — −20°C to +70°C | Abrasion resistant | Gaskets, packing, bearing pads, isolation pads
+EPDM Rubber Sheet / Waterproof Membrane — −40°C to +150°C | Ozone, weather resistant | Roofing membranes, expansion joint seals, waterproofing
+Chloroprene (Neoprene) Rubber Sheet — −35°C to +120°C | Oil, ozone resistant | Expansion joints, dock fenders, bridge bearings
+Silicone Rubber Sheet – FDA-Compliant High-Temperature — −60°C to +230°C | FDA, thermal stable | Oven gaskets, high-temp seals, food equipment
+Radiation Shielding:
+
+Self-Extinguishing Flexible Boron Sheet — −20°C to +80°C | Neutron and gamma attenuation | Nuclear reactors, spent fuel storage, BARC R&D
+Lead Rubber Sheet — −10°C to +60°C | X-ray and gamma radiation shielding | Radiation therapy rooms, X-ray suites, industrial NDT
+Boron Polyethylene — −20°C to +80°C | Neutron moderation and absorption | Reactor shielding, neutron beam ports
+Pure Polyethylene (Shielding Grade) — −20°C to +80°C | Neutron scattering/moderation | Reactor walls, shielding bunkers
+PART 7 — PRODUCT DETAIL PAGE
+Frame: Product — [Grade Name] — template for all products
+
+Nav + breadcrumb: Home › Products › [Category] › [Product Name]
+
+Product Hero (2-column, 1040px max-width, padding 64px)
+LEFT (55%):
+
+Grade chip: --bri-primary bg, white text, Poppins 600 12px, 24px radius — "VITON® FKM"
+H1 (Poppins 700 40px --bri-text): "VITON® / FKM Rubber Sheet"
+Compliance chips row (flex, gap 8px, margin-top 16px): FDA · ASTM D2000 · ISO 9001
+Body (Poppins 400 15px --bri-text-mid, margin-top 16px, max-width 440px): "High-performance fluoroelastomer rubber sheet for applications requiring exceptional resistance to fuels, oils, and high temperatures. Manufactured at BRI's Bhavnagar facility with full NABL test documentation."
+4 spec blocks (2×2 grid, margin-top 24px, gap 12px): Each: --bri-gray-bg bg, --bri-gray-border border, 8px radius, padding 14px Spec value: Poppins 700 18px --bri-primary | Label: Poppins 400 12px --bri-text-light
+"−20°C to +230°C" / Temperature Range
+"40–80 Shore A" / Hardness (ASTM D2240)
+"FDA 21 CFR" / Primary Compliance
+"0.5mm – 10mm" / Thickness Range
+Actions (margin-top 28px, gap 12px): [Download Datasheet ↓] outline button | [Request Sample] outline | [Get a Quote →] --bri-primary fill
+RIGHT (45%):
+
+Product image (380×380px, --bri-gray-bg bg, 12px radius, border --bri-gray-border)
+"📷 Image: Viton FKM rubber sheet close-up, brown/black material, clear texture"
+3 thumbnail variant chips below
+Technical Specifications Table
+BG: --bri-gray-bg | Padding: 64px | Max-width 900px centered
+
+H3: "Technical Specifications"
+
+Table (full width, clean): Header row: --bri-primary bg, white Poppins 600 13px text, height 44px Alternate rows: white / --bri-gray-bg, Poppins 400 13px --bri-text, height 48px, border-bottom --bri-gray-border 2 columns: Property (40%) | Value (60%)
+
+Full spec rows: Material | FKM (Fluoroelastomer / Viton®) Grade | Industrial / Fuel & Oil Service Shore A Hardness | 40, 50, 60, 70, 80 (customizable on order) Tensile Strength | Min. 9 MPa (ASTM D412) Elongation at Break | Min. 150% Specific Gravity | 1.8 – 1.9 g/cm³ Temperature Range | −20°C to +230°C continuous Chemical Resistance | Fuels, oils, aromatic solvents, acids Colour | Brown / Black Width | Up to 1500mm Thickness | 0.5mm to 10mm Roll Length | 5m – 20m (custom cut available) Compliance | FDA 21 CFR, ASTM D2000, RoHS NABL Test Report | Available on request
+
+Applications & Industries (2-column)
+LEFT: 4 application rows (same numbered list style)
+RIGHT: Industry fit chips grid
+
+Related Products
+3 product cards (same card style as featured solutions)
+
+Inline RFQ
+White card, max-width 640px centered, full form
+
+PART 8 — TECHNICAL RESOURCES FLOATING SIDEBAR
+This is the most distinct new feature. It is NOT a full page — it is a persistent floating element visible site-wide.
+
+Floating Trigger Button (All Pages, Fixed Position)
+Position: Fixed, bottom-left corner of viewport Offset: 24px from left edge, 24px from bottom Appearance:
+
+--bri-primary bg pill | height 44px | padding 0 20px | 22px radius
+Left: 📐 ruler/document icon (16px, white)
+Text: "Technical Resources" Poppins 600 13px white
+Right: small "↑" or expand icon, white
+box-shadow: 0 4px 20px rgba(26,127,193,0.35)
+Hover: --bri-primary-dark bg + shadow lift
+On click: opens Technical Resources Drawer (slides up from bottom-left)
+
+Technical Resources Drawer
+Appearance: Slide-up panel, anchored bottom-left
+
+Width: 320px | Max-height: 480px (scrollable within)
+BG: white | --bri-gray-border border | 16px radius (top corners) | shadow elevated
+Header: "Technical Resources" Poppins 600 16px --bri-text + [×] close top-right
+Navigation list inside drawer (9 items): Each: 48px height | border-bottom: 1px solid --bri-gray-border | flex row | hover --bri-sky bg | cursor pointer | Poppins 500 14px --bri-text
+
+Arrow → right (16px --bri-text-light) + moves right on hover
+Items (clicking any opens that sub-page or scrolls to that section):
+
+Rubber Properties
+Rubber Specifications
+Rubber Temperature Range Chart
+Rubber Hardness (Shore A) Chart
+Rubber Chemical Resistance Guide
+O-Ring Design Guide
+O-Ring Groove Design
+O-Ring Size Chart
+O-Ring Installation Guide
+Each item links to its respective technical resource page (see Part 9).
+
+PART 9 — TECHNICAL RESOURCES PAGES
+9 separate page frames. All follow the same template. Reference style: mykin.com/rubber-technical-resources/ — clean sidebar + content layout, technical but readable Frame prefix: Tech — [Name]
+
+Page Template Structure
+Header: Same nav | Hero: --bri-sky bg, 160px, H1 left-aligned, breadcrumb
+
+2-column layout (260px sidebar + content):
+
+LEFT SIDEBAR (sticky): --bri-primary bg top bar: "TECHNICAL RESOURCES" Poppins 600 13px white uppercase Links list (same 9 items as drawer), each 44px height, Poppins 500 14px white 80%, active = white bold + --bri-primary-dark bg left border
+
+MAIN CONTENT (flex-grow, padding 40px): H1 right-aligned with right border: Poppins 700 40px --bri-text (same device as Mykin — H1 + right vertical blue line) Opening paragraph: Poppins 400 16px --bri-text-mid, line-height 1.7
+
+TR1 — RUBBER PROPERTIES
+H1: "Rubber Properties" Intro: "Understanding the key physical and chemical properties of rubber materials is essential for selecting the correct grade for your application. Properties vary significantly between rubber families — this guide covers the most critical factors for engineering applications."
+
+Content: Section heading: "Key Properties by Rubber Type"
+
+Comparison table (7 rubber types × 8 properties):
+Header: Material | NR | SBR | NBR | EPDM | Neoprene | Silicone | Viton FKM
+Properties (rows):
+
+Temperature Range
+Oil Resistance
+Ozone/Weather Resistance
+Flame Resistance
+Electrical Resistance
+Abrasion Resistance
+Compression Set
+Chemical Resistance
+Rating scale: ● = Excellent | ◉ = Good | ○ = Fair | × = Poor (show in each cell)
+
+Table style: white bg, --bri-gray-border borders, --bri-gray-bg header row, --bri-primary first column, alternating row fills, Poppins 400 13px body
+
+Section: "What This Means for Your Application"
+3 expandable cards (accordion style):
+
+Choosing Between NBR and Viton FKM
+When to Specify Silicone Over EPDM
+Natural Rubber vs. SBR — When Abrasion Matters Most
+Each: --bri-gray-bg bg, arrow toggle right, Poppins 500 15px --bri-text header, Poppins 400 14px --bri-text-mid body when open
+
+TR2 — RUBBER SPECIFICATIONS
+H1: "Rubber Specifications" Intro: "Rubber specifications define the minimum performance standards a material must meet. BRI manufactures to both international standards and custom specifications. Below are the key standards referenced across our product range."
+
+Standards table: Columns: Standard | Scope | Relevant BRI Grades Rows:
+
+IS 15652 | Electrical insulation rubber mats — Class 0 to Class 4 | Electrical Insulation Mats
+ASTM D2000 | Classification for rubber materials for automotive use | NBR, EPDM, Neoprene, Viton
+ASTM D412 | Tensile and elongation testing for vulcanized rubber | All grades
+ASTM D2240 | Shore A hardness measurement | All grades
+ASTM D53516 | Abrasion resistance testing (DIN equivalent) | NR/SBR, Skirt-Board grades
+FDA 21 CFR 177.2600 | Food contact rubber materials | Silicone, EPDM, NR/EPDM food grade
+WRAS BS 6920 | Potable water contact materials | EPDM potable water grade
+BS 6853 | Fire performance for railway vehicles | Fire-retardant Neoprene, Boron-Flex
+USP Class VI | Biological safety for pharmaceutical contact | Silicone medical grade
+EC 1935/2004 | EU food contact materials regulation | Food-grade NR/EPDM
+Section: "BRI's In-House Testing Laboratory"
+Text block: "All BRI rubber compounds are tested in our NABL-accredited in-house laboratory before dispatch. NABL accreditation (National Accreditation Board for Testing and Calibration Laboratories) means our test reports carry national recognition and can be submitted to OEM procurement and government project auditors without third-party re-testing."
+
+Available tests: Shore A Hardness (ASTM D2240) · Tensile Strength (ASTM D412) · Elongation at Break · Compression Set · Chemical Immersion (ASTM D471) · Abrasion Resistance (DIN 53516) · UV/Ozone Aging
+
+TR3 — RUBBER TEMPERATURE RANGE CHART
+H1: "Rubber Temperature Range" Intro: "Temperature compatibility is the most critical selection criterion for most rubber applications. Each rubber polymer has a defined continuous operating range and a separate intermittent (short-term) range. Exceeding the continuous range leads to accelerated degradation, hardening, or compression set."
+
+Chart: Horizontal bar chart (visual, SVG-based) Each rubber type: one bar spanning its min to max operating range on a −80°C to +260°C axis Colors: each rubber type gets a different --bri-primary shade or teal accent
+
+Rubber Type	Min Temp	Max Temp (Continuous)	Max Temp (Intermittent)
+Natural Rubber (NR)	−55°C	+80°C	+100°C
+SBR	−50°C	+100°C	+110°C
+Nitrile (NBR)	−35°C	+120°C	+135°C
+EPDM	−45°C	+150°C	+175°C
+Neoprene (CR)	−35°C	+120°C	+130°C
+Butyl (IIR)	−45°C	+120°C	+135°C
+Silicone (VMQ)	−60°C	+230°C	+250°C
+Viton FKM	−20°C	+200°C	+230°C
+Hypalon CSM	−40°C	+120°C	+135°C
+Boron-Flex	−20°C	+80°C	+100°C
+Below chart: Text block — "How to read this chart" + note on continuous vs. intermittent ratings
+
+TR4 — RUBBER HARDNESS (SHORE A) CHART
+H1: "Rubber Hardness Chart" Intro: "Rubber hardness is measured on the Shore A scale from 0 (very soft) to 100 (very hard). The correct hardness for your application depends on sealing pressure, compression requirements, and whether the part needs to flex or stay rigid."
+
+Hardness scale visual: Horizontal scale from 20 to 100 Shore A Colored zones: Very Soft (20–40) / Soft (40–60) / Medium (60–70) / Hard (70–85) / Very Hard (85–100)
+
+Application reference table:
+
+Shore A Range	Typical Applications	Example BRI Grades
+30–45	Gaskets, diaphragms requiring high compression	VMQ Silicone soft, NR soft
+45–60	General gaskets, seals, vibration dampers	NBR-50, EPDM-50, NR-50
+60–70	Industrial gaskets, conveyor skirt boards	NBR-60, SBR-60, Neoprene-60
+70–80	Bearing pads, expansion joints, heavy industrial	NR-70, EPDM-70, NBR-70
+80–90	Chute liners, abrasion-resistant sheets, pads	SBR-80, NR/SBR abrasion
+Section: "Custom Hardness Availability at BRI" "BRI manufactures most rubber grades across a range of Shore A hardness values. Standard increments: 40, 50, 60, 70 Shore A. Custom values available on minimum order quantity. Specify your required Shore A when submitting an RFQ."
+
+TR5 — RUBBER CHEMICAL RESISTANCE GUIDE
+H1: "Rubber Chemical Resistance" Intro: "Chemical compatibility is critical for rubber materials in contact with fluids, gases, or reactive substances. This guide covers resistance ratings for BRI's primary rubber grades against the most common industrial chemicals."
+
+Rating key: ✓ Excellent · ○ Good · △ Fair · × Poor/Not Recommended
+
+Resistance table (chemicals × rubber types): Columns: Chemical | NR | NBR | EPDM | Neoprene | Silicone | Viton FKM | Butyl
+
+Chemicals:
+
+Petroleum Oils | × | ✓ | × | ○ | ○ | ✓ | △
+Aromatic Fuels | × | ○ | × | △ | △ | ✓ | ×
+Water (Hot) | ○ | ○ | ✓ | ○ | ✓ | ✓ | ○
+Steam | × | △ | ✓ | △ | ✓ | ○ | △
+Dilute Acids | ○ | ○ | ✓ | ○ | ✓ | ✓ | ×
+Concentrated Acids | × | △ | ○ | × | ○ | ✓ | ×
+Alkalis | ○ | ○ | ✓ | ✓ | ✓ | × | ✓
+Ozone / Weathering | × | × | ✓ | ✓ | ✓ | ✓ | ✓
+Hydraulic Fluids | ○ | ✓ | × | ○ | ✓ | ✓ | ×
+Refrigerants | × | ○ | ✓ | ✓ | ✓ | ✓ | ×
+Food Grade Oils | × | ✓* | ✓* | △ | ✓ | ✓* | × | *(FDA-compliant grade required)
+Section: "Request a Specific Compatibility Assessment"
+Text + link to RFQ form pre-filled with "Chemical compatibility assessment request"
+
+TR6 — O-RING DESIGN GUIDE
+H1: "O-Ring Design Guide" Intro: "An O-ring is a circular elastomeric seal designed to sit in a groove and create a seal under compression. Correct groove design is as important as material selection — an oversized groove or incorrect surface finish will cause leaks even with a correctly specified material."
+
+Sections:
+
+How O-Rings Work — diagram (SVG cross-section showing O-ring in groove, compression squeeze %)
+Squeeze Percentage — table: application type / recommended % squeeze
+Groove Design Guidelines — static face / static bore / dynamic reciprocating / dynamic rotary
+Surface Finish Requirements
+Common O-Ring Failure Modes — table: Failure / Cause / Remedy
+TR7 — O-RING GROOVE DESIGN
+H1: "O-Ring Groove Design" Intro: "Groove dimensions must be calculated for each application. BRI recommends designing grooves to AS568 or metric ISO 3601 standards unless the application specifies otherwise."
+
+Design dimension tables: Static Face Seal groove dimensions (4 rows: O-ring cross-section / groove width / groove depth / diametral clearance) Static Bore Seal groove dimensions (same) Dynamic Reciprocating groove dimensions Dynamic Rotary groove dimensions
+
+All tables: clean header row --bri-primary bg, alternating fill rows, Poppins 400 13px
+
+TR8 — O-RING SIZE CHART
+H1: "O-Ring Size Chart" Intro: "Standard O-ring sizes are defined by AS568 (US) and ISO 3601 (metric). The chart below lists the most common sizes. BRI can supply custom-moulded O-rings in any BRI rubber compound for non-standard sizes."
+
+AS568 size table (partial — show first 20 rows, note full table available on download): Columns: AS568 No. | ID (inches) | OD (inches) | Cross-Section | Metric ID (mm) | Metric CS (mm)
+
+[Download Full O-Ring Size Chart PDF] — --bri-primary fill button
+
+TR9 — O-RING INSTALLATION GUIDE
+H1: "O-Ring Installation Guide" Intro: "Correct installation is as important as correct specification. Most O-ring failures in service are caused by damage during installation rather than material incompatibility or incorrect sizing."
+
+Sections:
+
+Pre-Installation Inspection — checklist format with ✓ items
+Lubrication — compatible lubricants by rubber type (table)
+Installation Over Threads or Sharp Edges — with and without installation tool
+Common Installation Errors — table: Error | Effect | Prevention
+Torque and Compression Limits — reference table by O-ring size class
+PART 10 — ABOUT US PAGE
+Frame: About Us
+
+Hero
+Gradient bg | H1 Poppins 700 48px white: "30+ Years of Precision Rubber Manufacturing" | Sub
+
+Company Story (2-col, light section)
+LEFT: H2 + 3 paragraphs covering:
+"Boron Rubbers India was established over 30 years ago in Bhavnagar, Gujarat, with a singular focus — to manufacture rubber materials that meet the performance requirements of India's most demanding industries..."
+Include BARC collaboration story, NABL lab establishment, expansion to Sanand Unit-II
+
+RIGHT: facility image placeholder ("📷 Factory floor or exterior, Bhavnagar GIDC plant")
+
+Company Values (3-column card grid)
+Research & Innovation — icon — "Advanced R&D drives every compound we manufacture"
+Quality & Integrity — icon — "ISO 9001:2015 certified across all manufacturing operations"
+Customer Satisfaction — icon — "Technical support from specification through to delivery"
+Facilities (2-column)
+Card 1: Bhavnagar Head Office — address, capabilities list, map placeholder
+Card 2: Sanand Unit-II — address, capabilities, map placeholder
+
+Certifications Grid (3×2)
+ISO 9001:2015 · NABL Accredited Lab · IS 15652 · FDA 21 CFR · ASTM D2000 · BARC Collaboration
+Same certification card style from V3 brief but in light theme (white cards)
+
+CTA: "Request a Quote or Technical Consultation"
+PART 11 — FIGMA FILE ORGANIZATION
+Page list:
+
+#	Frame Name
+1	_Design System — colors, type, components
+2	Homepage
+3	Contact — RFQ
+4	About Us
+5	Industry — Automotive OEMs
+6	Industry — Metro & Railways
+7	Industry — Aerospace/Defence
+8	Industry — Mining & Cement
+9	Industry — Oil & Gas
+10	Industry — Engineering & EPCs
+11	Industry — Pharma & Food
+12	Industry — Radiation Shielding
+13	Product — VITON FKM Sheet
+14	Product — EPDM Sheet
+15	Product — NBR Nitrile Sheet
+16	Products — All Products Listing
+17	Tech — Rubber Properties
+18	Tech — Rubber Specifications
+19	Tech — Temperature Range Chart
+20	Tech — Hardness Chart
+21	Tech — Chemical Resistance
+22	Tech — O-Ring Design Guide
+23	Tech — O-Ring Groove Design
+24	Tech — O-Ring Size Chart
+25	Tech — O-Ring Installation Guide
+26	Mobile — Homepage
+27	Mobile — Contact
+28	_Components Library
+Component naming: BRI/[Section]/[Name]/[State] Examples: BRI/Button/Primary/Default, BRI/Card/ProductCard/Default, BRI/Card/IndustryCard/Selected, BRI/Tool/FindMyRubber/Step1, BRI/Nav/Desktop, BRI/TechSidebar/Drawer/Open
+
+PART 12 — GLOBAL SPECS QUICK REFERENCE
+Card radius: 12px standard, 16px for modals/forms Shadow (cards): 0 1px 3px rgba(0,0,0,0.07), 0 4px 16px rgba(0,0,0,0.06) Shadow (hover): 0 4px 12px rgba(0,0,0,0.10), 0 12px 32px rgba(0,0,0,0.10) Nav height: 72px Max content width: 1280px Page padding sides: 80px desktop / 24px mobile Section padding: 80px top/bottom major / 64px minor Button height: 44px primary / 36px secondary Button radius: 24px (pill for primary CTAs) / 8px (rectangular for form actions) Input height: 44px, 8px radius Table row height: 48px Footer bg: --bri-navy 
+#0D2B4E
+
+Address (verbatim): Head Office: Plot No. 52, Opp. Post Office, GIDC Chitra, Bhavnagar 364004 Unit-II: E-36, Road 31/A, BOL GIDC Estate, Sanand–II, Ahmedabad–382170 Phone: +91 278 2445049 | Email: sales@boronrubbersindia.com
+
+Prepared by Elev8 Systems for Boron Rubbers India — 2026 This document is fully self-contained. No prior Figma file, brief, or external document needed. Build over existing approved mockup. Keep structure, improve visuals, add all missing pages and the Technical Resources floating sidebar.
+
+
+
+
+
+
+
+
+
